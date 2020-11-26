@@ -1,0 +1,35 @@
+/*--------------------NAV----------------------------*/
+.navegacion {
+  justify-content: flex-end;
+}
+.navegacion__item {
+  width: 15%;
+  margin: 0em 2em;
+}
+/*----------------------INICIO-----------------------------*/
+.inicio {
+  height: 120vh;
+}
+.inicio__datos {
+  margin: 9em 0em 3.5em 4em;
+  width: 90%;
+}
+/*--------------------PROYECTOS---------------------------*/
+.card {
+  width: 40%;
+}
+.card__info {
+  margin-top: -3em;
+}
+/*--------------------CONTACTOS----------------------------*/
+.contacto__datospersonales {
+  width: 40%;
+}
+.contacto__escribir {
+  width: 35%;
+}
+
+/*------------------------FOOTER------------------------------*/
+.footer__redes__icon {
+  font-size: x-large;
+}

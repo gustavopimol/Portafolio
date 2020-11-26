@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/portafolio.css">
+    <title>Portafolio</title>
+    <link rel="shortcut icon" href="img/folder.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tablets.css" media="(min-width: 480px)" />
+    <link rel="stylesheet" href="css/small-screens.css" media="(min-width: 768px)"/>
+    <link rel="stylesheet" href="css/desktops.css" media="(min-width: 1024px)" />
+    <link rel="stylesheet" href="css/desktop-extralarge.css" media="(min-width: 1200px)" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-        <header id="inicio">
+        <header class="header">
+                <input type="checkbox" id="btn-menu" >
+                <label for="btn-menu" class="navegacion-icon"><i class="fas fa-bars"></i></label>
             <nav class="navegacion">
                 <a ref="#inicio" class="navegacion__item">INICIO</a>
                 <a href="#proyectos" class="navegacion__item">PROYECTOS</a>
@@ -20,7 +27,7 @@
                 <div class="inicio__datos">
                     <h2 class="inicio__datos__nombre">Gustavo</h2>
                     <h3 class="inicio__datos__apellidos">Piminchumo Olivos</h3>
-                    <p class="inicio__datos__descripcion">Aprendiz de Frontend. <br> Motivado y con ganas de seguir aprendiendo.</p>
+                    <p class="inicio__datos__descripcion">Aprendiz de Frontend. <br> Perseverante, motivado y de aprendizaje continuo. <br>Estudiante de Ingenieria de Sistemas - Universidad Nacional de Trujillo</p>
                 </div>
             </section>
             <section id="proyectos" class="proyectos">
@@ -31,22 +38,10 @@
                             <img src="img/huanchaco.png" alt="" class="img">
                         </div>
                         <div  class="card__info">
-                            <h4 class="card__info__titulo">CONOCIENDO HUANCHACO</h4>
+                            <h4 class="card__info__titulo">HUANCHACO</h4>
                             <div class="card__info__enlaces">
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="img/huanchaco.png" alt="" class="img">
-                        </div>
-                        <div  class="card__info">
-                            <h4 class="card__info__titulo">CONOCIENDO HUANCHACO</h4>
-                            <div class="card__info__enlaces">
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
+                                <a href="https://gustavopiminchumoolivos.000webhostapp.com/Huanchaco/" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
+                                <a href="https://github.com/gustavopimol/Huanchaco" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -55,10 +50,10 @@
                             <img src="img/radiooasis.jpg" alt="" class="img" >
                         </div>
                         <div  class="card__info">
-                            <h4 class="card__info__titulo">RADIO OASIS</h4>
+                            <h4 class="card__info__titulo">CANCIONES PEDIDAS</h4>
                             <div class="card__info__enlaces">
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
-                                <a href="https://github.com/gustavopimol/Proyectos/tree/main/RadioOasis" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
+                                <a href="https://gustavopiminchumoolivos.000webhostapp.com/RadioOasis/" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
+                                <a href="https://github.com/gustavopimol/CancionesPedidas" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -69,35 +64,22 @@
                         <div  class="card__info">
                             <h4 class="card__info__titulo">TABLA DE POSICIONES</h4>
                             <div class="card__info__enlaces">
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
+                                <a href="https://gustavopiminchumoolivos.000webhostapp.com/TablaFutbol/" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
+                                <a href="https://github.com/gustavopimol/TablaFutbol" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card__img">
-                            <img src="inicio.jpg" alt="" class="img" >
+                            <img src="img/inventario.jpg" alt="" class="img" >
                         </div>
                         <div  class="card__info">
-                            <h4 class="card__info__titulo">CONOCIENDO HUANCHACO</h4>
+                            <h4 class="card__info__titulo">SISTEMA INVENTARIO</h4>
                             <div class="card__info__enlaces">
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/gustavopimol/SistemaInventario" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                     </div>
-                     <!--<div class="card">
-                        <div class="card__img">
-                            <img src="inicio.jpg" alt="" class="img" >
-                        </div>
-                        <div  class="card__info">
-                            <h4 class="card__info__titulo">CONOCIENDO HUANCHACO</h4>
-                            <div class="card__info__enlaces">
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fas fa-globe"></i></a>
-                                <a href="" target="_blanck" class="card__info__icon"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </section>
             <section id="contacto" class="contacto">
@@ -105,17 +87,17 @@
                 <section class="contacto__container">
                     <div class="contacto__datospersonales">
                         <div class="contacto__datospersonales__celular">
-                            <label for="" class="icon-mobile"><i class="fas fa-mobile-alt"></i></label>
-                            <label for="">celular: 985920534</label>                        
+                            <label for="" class="icon-mobile"><i class="fas fa-mobile-alt"></i> </label>
+                            <label for="" class="datospersonales__celular"> celular: 985920534</label>                        
                         </div>
                         <div class="contacto__datospersonales__email">
-                            <label for="" class="icon-envelope"><i class="fas fa-envelope"></i></label>
-                            <label for="" >Email: gustavopimol.98@gmail.com</label>
+                            <label for="" class="icon-envelope"><i class="fas fa-envelope"></i> </label>
+                            <label for="" class="datospersonales__email" > Email: gustavopimol.98@gmail.com</label>
                         </div>
                         <div class="contacto__datospersonales__redes">
                             <a href="https://www.instagram.com/gustavopimol/" target="_blanck" class="contacto-redes"><i class="fab fa-instagram"></i></a>
                             <a href="https://web.facebook.com/tavo.olivos/" target="_blanck" class="contacto-redes"><i class="fab fa-facebook-f"></i></a>
-                            <a href="##" target="_blanck" class="contacto-redes"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#sas" class="contacto-redes"><i class="fab fa-linkedin-in"></i></a>
                         </div>                    
                     </div>
                     <div class="contacto__escribir">
@@ -144,7 +126,7 @@
             <div class="footer__redes">
                 <a href="https://www.instagram.com/gustavopimol/" target="_blanck" class="footer__redes__icon"><i class="fab fa-instagram"></i></a>
                 <a href="https://web.facebook.com/tavo.olivos/" target="_blanck" class="footer__redes__icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="###" target="_blanck" class="footer__redes__icon"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blanck" class="footer__redes__icon"> <i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/gustavopimol" target="_blanck" class="footer__redes__icon"><i class="fab fa-github"></i></a>
             </div>
             <div class="footer__linea">

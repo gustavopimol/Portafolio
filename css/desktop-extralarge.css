@@ -1,0 +1,24 @@
+/*--------------------PROYECTOS---------------------------*/
+.card {
+  width: 30%;
+  height: 50vh;
+}
+.card__info {
+  padding: 0;
+  margin-top: -2em;
+}
+.card__info__titulo {
+  margin: 0em 0em 0.5em 0em;
+}
+/*--------------------CONTACTOS----------------------------*/
+.contacto__datospersonales {
+  width: 40%;
+}
+.contacto__escribir {
+  width: 40%;
+}
+
+/*------------------------FOOTER------------------------------*/
+.footer__redes__icon {
+  font-size: x-large;
+}

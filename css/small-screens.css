@@ -1,0 +1,66 @@
+/*--------------------NAV----------------------------*/
+.header {
+  width: 100%;
+  position: relative;
+}
+.navegacion-icon {
+  display: none;
+}
+.navegacion {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-third);
+  padding: 1em;
+}
+.navegacion__item {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin: 0em 1.5em;
+  padding: 0;
+  border-radius: 5px;
+  border-top: 1px solid rgb(167, 159, 159);
+  border-bottom: 1px solid rgb(167, 159, 159);
+}
+.navegacion .navegacion__item:hover {
+  transform: scale(1.1);
+}
+/*----------------------INICIO-----------------------------*/
+.inicio {
+  width: 100%;
+  height: 120vh;
+  background: url(../img/inicio.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.inicio__datos {
+  margin: 9em 0em 3.5em 0em;
+}
+.inicio__datos__nombre {
+  font-size: 6em;
+}
+.inicio__datos__apellidos {
+  font-size: 3.5em;
+  margin: 0em;
+}
+/*--------------------PROYECTOS---------------------------*/
+.card {
+  width: 43%;
+}
+/*--------------------CONTACTOS----------------------------*/
+.contacto__container {
+  flex-direction: row;
+}
+.contacto__datospersonales {
+  width: 45%;
+}
+.contacto__escribir {
+  width: 40%;
+}

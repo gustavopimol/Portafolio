@@ -1,0 +1,41 @@
+/*--------------------INICIO----------------------------*/
+.inicio__datos {
+  padding-left: 1em;
+}
+.inicio__datos__nombre {
+  font-size: 4em;
+}
+.inicio__datos__apellidos {
+  font-size: 2.5em;
+}
+.inicio__datos__descripcion {
+  font-size: 2em;
+}
+/*--------------------PROYECTOS---------------------------*/
+.card {
+  width: 70%;
+}
+/*--------------------CONTACTOS----------------------------*/
+.contacto__datospersonales {
+  width: 68%;
+  justify-content: center;
+  align-items: center;
+}
+.contacto__datospersonales__celular,
+.contacto__datospersonales__email,
+.contacto__datospersonales__redes {
+  font-size: 1.4em;
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contacto__datospersonales__celular {
+  padding-top: 1em;
+}
+.contacto-redes {
+  margin: 0em 1em;
+}
+.contacto__escribir {
+  width: 65%;
+}
