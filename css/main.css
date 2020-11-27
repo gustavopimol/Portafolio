@@ -283,6 +283,7 @@
 .footer__redes__icon {
   color: var(--color-gray);
   margin: 0em 1em;
+  font-size: x-large;
 }
 .footer__redes__icon:hover {
   color: var(--color-primary);
@@ -294,7 +295,7 @@
   color: var(--color-red);
   display: flex;
   justify-content: flex-end;
-  margin-right: 4.5em;
+  margin-right: 1em;
   margin-top: -2em;
 }
 .fa-arrow-alt-circle-up {
